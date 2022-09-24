@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('http://fonts.cdnfonts.com/css/baron-neue');
+
+body {
+  overflow-x: hidden;
+  background-color: black;
+}
+.p-bar {
+  background-color: rgb(248, 252, 248);
+          left: 142.5px;
+          top: 620px;
+          width: 520px;
+          height: 30px;
+          z-index: 100;
+          border-radius: 50px;
+          box-shadow: 0 0 100px 0px #fff,
+            /* inner white */ 0 0 5px 0px rgb(0, 255, 98),
+            /* middle magenta */ 0 0 140px 10px rgb(33, 242, 124); /* outer cyan */
+          position: absolute;
+}
+.p-bar2 {
+  
+          background-color: rgb(131, 128, 128);
+          left: 142.5px;
+          top: 620px;
+          width: 520px;
+          height: 30px;
+          z-index: 10;
+          border-color: rgb(119, 23, 209);
+          border-radius: 20px;
+          border-width: 50px;
+          position: absolute;
+  
+}
+
+#demo-svg path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+}
+#demo-svg {
+  width: 500px;
+  position: absolute;
+  top: 25;
+  left: 150px;
+}
+.back-arrow {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 13px;
+  left: 25px;
+  background-color: transparent;
+  background-image: url("imgs/barrow.png");
+  background-size: 100% 100%;
+  border-style: none;
+}
+#review-wrapper {
+  width: 900px;
+  left: 855px;
+  position: absolute;
+  bottom: 674px;
+}
+#review {
+  font-weight: 900;
+  font-family:"Raleway", sans-serif;  
+  display: inline-block;
+  line-height: 1em;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #c7c6c6;
+  max-width: 50%;
+  /*adhitya credit*/
+  text-align: left;
+  text-justify: inter-word;
+  position: absolute;
+}
+#fsong {
+  font-weight: 900;
+  font-family: "Raleway", sans-serif;
+  display: inline-block;
+  line-height: 1em;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #c7c6c6;
+  max-width: 50%;
+  text-align: justify;
+  text-justify: inter-word;
+  position: absolute;
+  top: 485px;
+  left: 90px;
+}
+.big-image {
+  width: 500px !important;
+  height: 500px !important;
+  background-size: 500px 500px !important;
+  position: relative;
+  top: 100px;
+  left: 10%;
+}
+.row {
+  position: absolute;
+  left: 17%;
+  top: 30%;
+  z-index: 0;
+}
+
+.row2 {
+  position: absolute;
+  left: 17%;
+  top: 70%;
+  z-index: 0;
+}
+
+.row3 {
+  position: absolute;
+  left: 17%;
+  top: 110%;
+  z-index: 0;
+}
+
+.row4 {
+  position: absolute;
+  left: 17%;
+  top: 150%;
+  z-index: 0;
+}
+
+.fhd2014-image {
+  width: 200px;
+  height: 200px;
+  background-image: url("https://m.media-amazon.com/images/I/71v0b7YG+zL._SL1500_.jpg");
+  background-size: 200px 200px;
+}
+
+#fhd2014-rating {
+  font-size: 24px;
+  color: white;
+  -webkit-text-stroke: 1px blue;
+  position: relative;
+  left: 28.9%;
+  top: 5%;
+  z-index: 1000;
+  font-family: "Baron Neue", sans-serif;
+}
+#container {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 25.3%;
+  top: 20%;
+
+  z-index: 2000;
+}
+
+.graduation-image {
+  width: 200px;
+  height: 200px;
+  background-image: url("imgs/Graduation.jpg");
+  background-size: 200px 200px;
+}
+
+#graduation-rating {
+  font-size: 24px;
+  color: white;
+  -webkit-text-stroke: 1px purple;
+  position: relative;
+  left: 55.1%;
+  top: 5%;
+  z-index: 1000;
+  font-family: "Baron Neue", sans-serif;
+}
+#container2 {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 51.5%;
+  top: 20%;
+  z-index: 0;
+}
+
+.nectar-image {
+  width: 200px;
+  height: 200px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/1/1b/Joji_-_Nectar.png");
+  background-size: 200px 200px;
+}
+
+#nectar-rating {
+  font-size: 24px;
+  color: white;
+  -webkit-text-stroke: 1px palevioletred;
+  position: relative;
+  left: 81.25%;
+  top: 5%;
+  z-index: 1000;
+  font-family: "Baron Neue", sans-serif;
+}
+
+#container3 {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 77.6%;
+  top: 20%;
+  z-index: 0;
+}
+
+.damn-image {
+  width: 200px;
+  height: 200px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/5/51/Kendrick_Lamar_-_Damn.png");
+  background-size: 200px 200px;
+}
+
+#damn-rating {
+  font-size: 24px;
+  color: white;
+  -webkit-text-stroke: 1px rgba(192, 16, 16, 0.61);
+  position: relative;
+  left: 28.9%;
+  top: 44.4%;
+  z-index: 1000;
+  font-family: "Baron Neue", sans-serif;
+}
+
+#container4 {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 25.3%;
+  top: 59%;
+  z-index: 10;
+}
+
+.mmlp-image {
+  width: 200px;
+  height: 200px;
+  background-image: url("https://media.pitchfork.com/photos/5acfc114cae28410a11144df/1:1/w_600/Marshall%20Mathers%20LP.jpg");
+  background-size: 200px 200px;
+}
+
+#mmlp-rating {
+  font-size: 24px;
+  color: white;
+  -webkit-text-stroke: 1px gray;
+  position: relative;
+  left: 54.8%;
+  top: 44.4%;
+  z-index: 1000;
+  font-family: "Baron Neue", sans-serif;
+}
+
+#container5 {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 51.2%;
+  top: 59%;
+  z-index: 10;
+}
+
+.sitdown-image {
+  width: 200px;
+  height: 200px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/7/70/Sit_Down%2C_Man.png");
+  background-size: 200px 200px;
+}
+
+#sitdown-rating {
+  font-size: 24px;
+  color: white;
+  -webkit-text-stroke: 1px gray;
+  position: relative;
+  left: 81.2%;
+  top: 44.4%;
+  z-index: 1000;
+  font-family: "Baron Neue", sans-serif;
+}
+
+#container6 {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 77.6%;
+  top: 59%;
+  z-index: 10;
+}
+
+.mom-image {
+  width: 200px;
+  height: 200px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/2/26/ManonTheMoonTheEndofDay.jpg");
+  background-size: 200px 200px;
+}
+
+#mom-rating {
+  font-size: 24px;
+  color: white;
+  -webkit-text-stroke: 1px rgba(220, 11, 123, 0.668);
+  position: relative;
+  left: 28.9%;
+  top: 84.4%;
+  z-index: 1000;
+  font-family: "Baron Neue", sans-serif;
+}
+
+#container7 {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 25.3%;
+  top: 99.5%;
+  z-index: 10;
+}
+
+
+.demo-wrapper {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  left: 0px;
+  bottom: 0px;
+  background-color: black;
+}
+
+.ml1 {
+  font-weight: 900;
+  font-size: 4em;
+  font-family: "Baron Neue", sans-serif;
+}
+
+.ml1 .letter {
+  display: inline-block;
+  line-height: 1em;
+  color: white;
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  left: 37%;
+}
+
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  transform-origin: 0 0;
+}
+
+.ml1 .line1 {
+  top: -1;
+}
+.ml1 .line2 {
+  bottom: 0;
+}
+
+.ml2 {
+  font-weight: 900;
+  font-size: 1.5em;
+  font-family: "Baron Neue", sans-serif;
+  color: white;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+  color: white;
+}
+
+.ml2 .text-wrapper {
+  position: absolute;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+/**
+ * Like, basically PERFECT scrollbars
+ */
+
+/* 
+   It's pure CSS. 
+   Since a quick google search will confirm people going crazy about Mac OS Lion scrollbars...
+   this has no fade-out effect.
+  
+   In Mac OS Lion, the lowest common denominator is always showing scrollbars by a setting.
+   So, this fits that lowest common denominator.
+   Facebook, lifehacker, and Google have all basically taken this approach. Of course Google uses incredibly ugly square scrollbars, but so be it.
+   Also, in regards to the fade in/out effect, this may just be one reason why soo many people outraged (and still hide) the ticker.
+   Ending note: I recommend this for non-lion users. As a lion user, I prefer my fading out scrollbars. If you sniff a UA of mac os lion, don't add this css.
+*/
+
+/* Turn on custom 8px wide scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* 1px wider than Lion. */
+  /* This is more usable for users trying to click it. */
+  background-color: rgba(212, 30, 30, 0);
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+/* hover effect for both scrollbar area, and scrollbar 'thumb' */
+::-webkit-scrollbar:hover {
+  background-color: rgba(28, 228, 144, 0.09);
+}
+
+/* The scrollbar 'thumb' ...that marque oval shape in a scrollbar */
+::-webkit-scrollbar-thumb:vertical {
+  /* This is the EXACT color of Mac OS scrollbars. 
+     Yes, I pulled out digital color meter */
+  background: rgba(181, 182, 240, 0.979);
+  height: 10px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+::-webkit-scrollbar-thumb:vertical:active {
+  background: rgba(192, 16, 16, 0.61); /* Some darker color when you click it */
+}
